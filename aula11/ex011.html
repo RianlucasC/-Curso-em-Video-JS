@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex009.v2</title>
+</head>
+<body>
+    <h1>verificador de gringo safado</h1>
+    <input type="text" name="pais" id="pais">
+    <input type="button" value="verificar" onclick= "ver()">
+    <div id="res">
+
+    </div>
+
+    <script>
+        function ver() {
+            var local = document.querySelector('input#pais')
+            var resp = document.querySelector('div#res')
+
+            if (local == 'br') {
+                res.innerHTML = '<p> brasileiro </p>'
+            }else {
+                res.innerHTML = '<p> gringo </p>'
+            }
+
+        }
+
+    </script>
+
+    
+</body>
+</html>
